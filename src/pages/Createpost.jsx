@@ -1,6 +1,10 @@
-
+import { useAuth } from "../hook/useAuth"
+import { useNavigate } from "react-router-dom";
 
 const Createpost = () => {
+  const {signout} = useAuth();
+  const navigate = useNavigate();
+
 
   const m = {
     fontSize: '35px',
@@ -11,8 +15,11 @@ const Createpost = () => {
   }
   
   return (
-    <div style={m}>
-      Create a post
+    <div >
+      <h1 style={m}>
+          Create a post
+      </h1>
+      <button onClick={() => signout(() => navigate('/', {replace: true}))}>Log Out</button>
     </div>
   )
 }
