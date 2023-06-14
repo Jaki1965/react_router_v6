@@ -3,7 +3,7 @@ import { Link, useMatch } from "react-router-dom";
 const CustomLink = ({children, to, ...props}) => {
 
   const mutch = useMatch(to);
-  console.log(mutch);
+ 
 
   return (
     <Link to={to} 
