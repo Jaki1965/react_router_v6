@@ -14,3 +14,4 @@
 * Хук useLocation 
 * Промежуточный коммит (commit 23)
 * Коммит перед переходом на lesson_6 (commit 24)
+* Начало lesson_6 (commit 25)
