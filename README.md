@@ -8,4 +8,8 @@
 * Промежуточный коммит (commit 13)
 * Создание собственного - кастомного NavLink в папке components (commit 14)
 * Праметры в ссылках. Использование useParams (commit 20)
-* Lesson_5 (commit 21)
+* Lesson_5 "Работа с историей, локацией и приватными роутами в React-router 6" (commit 21)
+* useNavigate, const navigate = useNavigate(), navigate('/', {replace: true}
+* Объект Location (Демонстрирем на компоненте Blogpage)
+* Хук useLocation 
+* Промежуточный коммит (commit 23)
